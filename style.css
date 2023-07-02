@@ -39,12 +39,15 @@ h1 {
 }
 
 .first-page {
+    background-color: #F1E4E6;
+}
+
+.first-page-wrapper {
+    width: 1600px;
     display: flex;
     gap: 64px;
     align-items: center;
     justify-content: center;
-    background-color: #F1E4E6;
-    width: 1600px;
 }
 
 .first-page-text {
@@ -204,4 +207,87 @@ h1 {
     text-align: left;
     color: #F26376;
     border: 1px solid #FF6A6A;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 44px;
+    }
+    .nav {
+        gap:424px;
+    }
+
+    .first-page-wrapper {
+        gap: 39px;
+        width: 768px;
+    }
+
+    .first-page img {
+        width: 386px;
+        height: 368px;
+    }
+
+    .first-page-text img {
+        width: 12px;
+        height: 92px;
+    }
+
+    .first-page-of-luxerious {
+        font-size: 24px;
+    }
+
+    .catalog {
+        width: 736px;
+        padding: 65px 16px;
+        padding-bottom: 0;
+        margin-bottom: 110px;
+        gap: 20px;
+    }
+
+    .catalog-women, .catalog-men, .catalog-kids {
+        width: 232px;
+        height: 167px;
+        background-size: cover;
+    }
+
+    .catalog-accesories {
+        width: 735px;
+        height: 116px;
+        background-size: cover;
+    }
+
+    .catalog-accesories img {
+        width: 735px;
+        height: 116px;
+    }
+
+    .catalog-card-text {
+        top: 59px;
+        right: 40px;
+    }
+
+    .catalog-text-accesories {
+        top: 33px;
+        right: 287px;
+    }
+
+    .products h2 {
+        margin-bottom: 3px;
+    }
+
+    .products-parag {
+        margin-bottom: 73px;
+    }
+
+    .products-cards {
+        grid-template-columns: repeat(2,360px);
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .products-btn {
+        margin-bottom: 71px;
+    }
 }

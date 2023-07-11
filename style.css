@@ -383,6 +383,10 @@ path {
     background-size: cover;
 }
 
+.subscription-background {
+    width: 100%;
+}
+
 .person {
     width: 360px;
     position: absolute;
@@ -600,7 +604,7 @@ path {
     }
 
     .subscription {
-        width: 768px;
+        width: 100%;
         height: 614px;
         flex-direction: column;
         gap: 48px;
@@ -621,7 +625,7 @@ path {
     }
 
     .subscription-background {
-        width: 768px;
+        width: 100%;
         height: 614px;
     }
 
@@ -739,7 +743,7 @@ path {
     }
 
     .subscription {
-        width: 375px;
+        width: 100%;
         height: 550px;
         gap: 59px;
         background-image: url(./img/BackgroundMobile.jpg);
@@ -748,7 +752,7 @@ path {
     }
 
     .subscription-background {
-        width: 375px;
+        width: 100%;
         height: 550px;
     }
 

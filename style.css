@@ -41,6 +41,7 @@ path {
 .navigation-right {
     margin: 18px 0;
     position: relative;
+    cursor: pointer;
 }
 
 .navigation-cart-count {
@@ -73,6 +74,7 @@ path {
     right: 0;
     width: 232px;
     background-color: #FFF;
+    z-index: 1;
 }
 
 .menu-wrapper {
@@ -115,7 +117,7 @@ path {
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
-    columns: #6F6E6E;
+    color: #6F6E6E;
 }
 
 .hidden {
@@ -252,6 +254,7 @@ path {
     position: absolute;
     top: 0;
     left: 0;
+    transition: display 1s;
 }
 
 .product-hover-btn {
@@ -269,9 +272,8 @@ path {
 
 .product-card-img {}
 
-.product-card-img:hover+.product-hover {
+.product-card-img:hover .product-hover {
     display: block;
-    transition: display 1s;
 }
 
 .product-card {
@@ -498,7 +500,7 @@ path {
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer-link-item:hover {
